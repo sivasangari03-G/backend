@@ -1,0 +1,27 @@
+.container {
+    background-color: whitesmoke;
+    display: flex;
+    padding-top: 20px;
+}
+
+.sidebar {
+    width: 190px;
+    padding: 15px;
+}
+
+.cardContainer {
+    flex-grow: 1;
+}
+
+.itemsContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.selectItems {
+    text-align: left;
+}
+
+.select {
+    text-align: right;
+}
